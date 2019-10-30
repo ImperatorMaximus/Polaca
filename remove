@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+
+	if(argc<2){
+		printf("Faltan argumentos\n");
+		exit (-1);
+	}
+	
+	if (remove(argv[1]) != 0){
+		printf("El archivo %s no se puede borrar\n");
+	}
+	
+	
+	return 0;
+}
