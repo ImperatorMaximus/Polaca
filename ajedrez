@@ -1,0 +1,68 @@
+sea un tablero de ajedrez y las posicicones de dos casillas, averiguar si se puede ir de una a otra con un movimiento de las sigueientes figuras; caballo, alfil, torre, reina, rey suponga que la posicion de una casilla está dada por dos valores; fila, columna en un tablero de 8x8 escribir una funcion por cada figura  que permita indicar si es posible o no realizar el movimiento.
+
+coordenadas.h
+#ifndef COOR_H
+#define COOR_H
+#include <stdio.h>
+
+struct _coor{
+	int x;
+	int y;
+};
+typedef struct_coor coor;
+
+#endif
+
+funciones.h
+#ifndef FUNC_H
+#define FUNC_H
+#include <stdio.h>
+#include <stdlib.h>
+#include <coordenadas.h>
+
+void reina (coor a, coor b);
+void alfil (coor a, coor b);
+void rey (coor a, coor b);
+void caballo (coor a, coor b);
+void torre (coor a, coor b);
+
+funciones.c
+#include <stdio.h>
+#include <stdlib.h>
+#include <funciones.h>
+
+void reina (coor a, coor b)
+
+void alfil (coor a, coor b)
+
+void rey (coor a, coor b)
+
+void caballo (coor a, coor b)
+
+void torre (coor a, coor b)
+
+main.c
+#include <stdio.h>
+#include <stdlib.h>
+
+void reina (coor a, coor b);
+void alfil (coor a, coor b); 
+void rey (coor a, coor b); 
+void caballo (coor a, coor b); 
+void torre (coor a, coor b);
+
+int main(int argc, char *argv[]) {
+	int i,j,x,y;
+	
+	return 0;
+}
+
+void reina (coor a, coor b)
+
+void alfil (coor a, coor b)
+
+void rey (coor a, coor b)
+
+void caballo (coor a, coor b)
+
+void torre (coor a, coor b)
