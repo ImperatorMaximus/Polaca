@@ -1,0 +1,14 @@
+funciones.h->
+complex leer_complex();
+
+funciones.c
+complex leer_complex(){
+  complex a;
+  printf("Ingresa parte real");
+  scanf("%f", &a.real);
+  printf("Ingresa parte imaginaria");
+  scanf("%f", &a.img);
+  return a;
+  
+  main.c
+  a = leer_complex(); //a es tipo complex
